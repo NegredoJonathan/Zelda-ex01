@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+header {
+    background-image: url('https://sm.ign.com/t/ign_br/screenshot/default/evolution-of-link-by-nelde_1vwb.1280.png');
+    background-size: center; /* Alteração aqui */
+    background-position: center center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    margin-top: 0 0 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Adiciona um fundo escuro semitransparente para o título */
+    padding: 20px;
+    display: inline-block; /* Permite que o fundo se ajuste ao tamanho do texto */
+}
+h3 {
+    margin: 0 0 30px; /* Remove a margem padrão */
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+}
+
+.routes{
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+.games {
+    list-style-type: none;
+    padding: 0;
+}
+.games li {
+    margin-bottom: 40px;
+    page-break-inside: avoid; /* Evita quebras de página no meio de um jogo */
+}
+.games img {
+    width: 600px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.games-details {
+    margin-left: 20px;
+}
+
+/* Estilos para o menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px; /* Tamanho da fonte aumentado para o item do menu Jogos */
+    padding: 5px 10px; /* Adiciona um espaçamento interno ao redor do texto */
+    background-color: #333; /* Cor de fundo */
+    border-radius: 5px; /* Borda arredondada */
+}
+nav ul li a:hover {
+    background-color: #555; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilos para o link "Jogos" */
+.dropbtn {
+    background-color: #fff; /* Cor de fundo branca */
+    color: #333; /* Cor do texto */
+    padding: 5px 10px; /* Adiciona um espaçamento interno ao redor do texto */
+    border-radius: 5px; /* Borda arredondada */
+    font-size: 24px; /* Tamanho da fonte aumentado */
+}
+
+/* Estilos para a lista suspensa */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a {
+    color: black;
+    padding: 8px 0;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
